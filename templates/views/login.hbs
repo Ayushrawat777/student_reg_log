@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <title>Document</title>
+</head>
+<body>
+      {{>navbar}}
+<form action="/login" method="POST">
+  <form action="/register" method="POST"> 
+   <input type="email" placeholder="Your Email*" name="email" value="">
+   <input type="password" placeholder="Password*" name="password" value="">
+    <input type="submit" value="login">
+    <a href="/register">create a account</a>
+</form>
+</body>
+</html>

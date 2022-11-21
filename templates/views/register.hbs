@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <title>Document</title>
+</head>
+<body>
+     {{>navbar}}
+   <form action="/register" method="POST">
+   <input type="text" placeholder="First Name" name="firstname" value="">
+   <input type="text" placeholder="First Name" name="lastname" value="">
+   <input type="email" placeholder="Your Email*" name="email" value="">
+   <input type="text" placeholder="Your Phone" name="phone" value="" minlength="10" maxlength="10">
+   <input type="password" placeholder="Password*" name="password" value="">
+   <input type="password" placeholder="Password*" name="confirmpassword" value="">
+   <button type="submit">Submit</button>
+    
+   </form>
+</body>
+</html>

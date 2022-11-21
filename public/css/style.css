@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: red;
+}
+input{
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+button{
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+}
